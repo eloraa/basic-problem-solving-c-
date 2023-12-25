@@ -3,10 +3,10 @@
 CC = g++
 CFLAGS = -Wall
 
-all: sum
+all: solution
 
-sum: sum.cpp
-	$(CC) $(CFLAGS) sum.cpp -o sum
+solution: solution.cpp
+	$(CC) $(CFLAGS) solution.cpp -o exc
 
 clean:
-	rm -f sum
+	rm -f exc

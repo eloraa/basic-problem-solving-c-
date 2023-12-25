@@ -3,10 +3,10 @@
 CC = g++
 CFLAGS = -Wall
 
-all: helloWorld
+all: solution
 
-hello: helloWorld.cpp
-	$(CC) $(CFLAGS) helloWorld.cpp -o helloWorld
+solution: solution.cpp
+	$(CC) $(CFLAGS) solution.cpp -o exc
 
 clean:
-	rm -f helloWorld
+	rm -f exc
