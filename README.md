@@ -13,7 +13,7 @@ The repository is organized into directories based on the source of the problems
 
 - **/problem**
     - `problem.cpp`
-    - `problem_description.md`
+    - `README.md` (problem description)
     - `Makefile`
     - `...`
 - `...`
