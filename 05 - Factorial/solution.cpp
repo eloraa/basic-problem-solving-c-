@@ -1,16 +1,19 @@
 #include <iostream>
 int main()
 {
-    int n;
+
+    long long fact = 1, n;
+
     std::cout << "Enter a number: ";
     std::cin >> n;
-    if (n % 2 == 0)
+    if (n != 1 && n != 0)
     {
-        std::cout << "The number is even" << std::endl;
+        fact = n;
+        for (int i = n - 1; i >= 1; i--)
+        {
+            fact *= i;
+        }
     }
-    else
-    {
-        std::cout << "The number is odd" << std::endl;
-    }
+    std::cout << "Factorial of " << n << " is: " << fact << std::endl;
     return 0;
 }
