@@ -1,3 +1,3 @@
 ### Problem Description
 
-Read two numbers from the user and print their sum.
+Determine if a given number is `even` or `odd`.
