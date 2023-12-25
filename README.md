@@ -26,7 +26,13 @@ To run a C++ solution, you can use a C++ compiler such as g++. There's a Makefil
 
 ### Using Makefile
 
-Navigate to the `problem` directory and use the following commands:
+You can build and run `solutions` using:
+
+```zsh
+make build_and_run folder=folder_name
+```
+
+or you can navigate to the `problem` directory and use the following commands:
 
 ```zsh
 # Compile the solution
@@ -41,7 +47,7 @@ make clean
 
 Alternavely
 
-To compile and run a C++ solution, you can use a C++ compiler such as g++.
+You can compile manually and run a solution, you can use a C++ compiler such as g++.
 
 ```zsh
 g++ input_filename.cpp -o output_filename
