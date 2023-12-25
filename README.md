@@ -29,7 +29,7 @@ To run a C++ solution, you can use a C++ compiler such as g++. There's a Makefil
 You can build and run `solutions` using:
 
 ```zsh
-make build_and_run folder=folder_name
+make folder=folder_name
 ```
 
 or you can navigate to the `problem` directory and use the following commands:
