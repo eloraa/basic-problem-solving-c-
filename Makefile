@@ -4,7 +4,7 @@ SRC := solution.cpp
 
 build_and_run:
 	@if [ -n "$(folder)" ]; then \
-		cd "$(folder)" && $(MAKE) -s && ./exc && $(MAKE)  -s || echo "Error: No 'exc' executable found in $(folder)"; \
+		cd "$(folder)" && $(MAKE) -s && ./exc && $(MAKE) clean -s || echo "Error: No 'exc' executable found in $(folder)"; \
 	else \
 		echo "Error: Please provide a valid folder name using 'make build_and_run folder=folder_name'"; \
 	fi
