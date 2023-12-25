@@ -3,7 +3,7 @@
 CC = g++
 CFLAGS = -Wall
 
-all: exc
+all: problem
 
 problem: problem.cpp
 	$(CC) $(CFLAGS) problem.cpp -o exc
